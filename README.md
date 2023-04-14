@@ -34,16 +34,16 @@ Also, we can observe that the balance accuracy score is 99%.
 
 ![My_Image](Images/classificationrpt_original.png)
 
-  * The logistic regression model with original data has high accuracy of 0.99. For predicting healthy loans, precision value is the maximum i.e 1.00 and for predicting high risk loan,  a precision score of 0.85 is observed. This tells that prediction of healthy loans is 100% and prediction of high-risk loans is only 85%. But we have to observe the oversampled training data to check if it can predict with higher precision as the original data set is highly imbalanced. Also the recall score of high-risk loan is 0.91 and hence the model can make mistakes when predicting the high-risk loans.
+The logistic regression model with original data has high accuracy of 0.99. For predicting healthy loans, precision value is the maximum i.e 1.00 and for predicting high risk loan,  a precision score of 0.85 is observed. This tells that prediction of healthy loans is 100% and prediction of high-risk loans is only 85%. But we have to observe the oversampled training data to check if it can predict with higher precision as the original data set is highly imbalanced. Also the recall score of high-risk loan is 0.91 and hence the model can make mistakes when predicting the high-risk loans.
 
 * Machine Learning Model 2 with oversampled data:
 
 ![My_Image](Images/classificationrpt_oversampled.png)
 
-  * The oversampled data improved the logistic regression model. Balanced Accuracy score is 0.99 and thus reduces the imbalance of data. It helps to predict better. It can be observed that the recall score for both healthy and high-risk loans is 0.99 hence it is more effective in identifyting a heatlhy loan and a high-risk loans.
+The oversampled data improved the logistic regression model. Balanced Accuracy score is 0.99 and thus reduces the imbalance of data. It helps to predict better. It can be observed that the recall score for both healthy and high-risk loans is 0.99 hence it is more effective in identifyting a heatlhy loan and a high-risk loans.
 
 ## Summary
 
 From the analysis we can observe that oversampling the data helped us to balance the dataset and also make better predictions with higher accuracy and recall score. It is important to predict the healthy and high-risk loans effectively as if they are mistaken then we can have false positives (healthy loans are predicted as high-risk loans) and false negatives (high-risk loans are predicted as healthy loans). 
 
-Thus, my recommendation is to use the Logistic Regression model with oversampled dataset.
+Thus, my recommendation is to use the Logistic Regression model with oversampled dataset as it predicts the creditworthiness of the borrowers accurately.
