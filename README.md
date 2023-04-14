@@ -12,13 +12,6 @@ The purpose of the analysis is to train and evaluate a model based on loan risk 
 
 In this analysis, the data was split in to training and testing sets. Then the dependent variable (loan status) and independent variables (all columns except loan status) were declared. Then, two different Logistic Regression models were created by using the original data set and randomly oversampled data set. Then the predictions were made to identify the creditworthiness of borrowers.
 
-<!-- 
-<p align = "center">
-
-  <img src = "Images/value_counts.png" height = 400 width = 800>
-
-</p> -->
-
 ![My_Image](Images/value_counts.png)
 
 By using the value_counts function, we are able to identiy that the original data is highly imbalanced. Healthy loans (classified as "0") outnumbers the high-risk loans (classified as "1").
